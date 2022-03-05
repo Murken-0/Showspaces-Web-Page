@@ -31,13 +31,32 @@ p {
 
 .view {
     display: block;
-    margin-right: 20px;
     border: 1px black;
     border-style: inset;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.left {
+    margin-right: 20px;
     float: left;
 }
+.right {
+    margin-left: 20px;
+    float: right;
+}
+
 .global__container {
     width: 1400px;
     margin: 0px auto;
+}
+
+.list {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    height: 250px;
+}
+ol {
+    margin: auto 0px;
 }
