@@ -5,6 +5,10 @@ body {
     min-width: 1400;
     background-color: aliceblue;
 }
+.global__container {
+    width: 1400px;
+    margin: 0px auto;
+}
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
@@ -13,7 +17,6 @@ h1 {
     text-align: center;
     margin-bottom: 20pt;
 }
-
 h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 16;
@@ -21,7 +24,6 @@ h2 {
     margin-bottom: 12px;
     line-height: 20pt;
 }
-
 p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 16;
@@ -37,7 +39,6 @@ p {
     border-radius: 10px;
     margin: auto;
 }
-
 .left {
     margin-right: 20px;
     float: left;
@@ -45,11 +46,6 @@ p {
 .right {
     margin-left: 20px;
     float: right;
-}
-
-.global__container {
-    width: 1400px;
-    margin: 0px auto;
 }
 
 .list {
@@ -60,4 +56,12 @@ p {
 }
 ol {
     margin: auto 0px;
+}
+
+.map {
+    border: 1px black;
+    border-style: inset;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
 }
