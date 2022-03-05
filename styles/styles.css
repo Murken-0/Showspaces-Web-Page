@@ -2,9 +2,11 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 50px;
+    padding-bottom: 50px;
     min-width: 1400;
     background-color: aliceblue;
 }
+
 .global__container {
     width: 1400px;
     margin: 0px auto;
@@ -12,11 +14,12 @@ body {
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
-    font-size:xx-large;
+    font-size: xx-large;
     font-weight: bolder;
     text-align: center;
     margin-bottom: 20pt;
 }
+
 h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 16;
@@ -24,10 +27,11 @@ h2 {
     margin-bottom: 12px;
     line-height: 20pt;
 }
+
 p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 16;
-    font-weight: bold;   
+    font-weight: bold;
     text-align: justify;
     line-height: 1.5;
 }
@@ -39,10 +43,12 @@ p {
     border-radius: 10px;
     margin: auto;
 }
+
 .left {
     margin-right: 20px;
     float: left;
 }
+
 .right {
     margin-left: 20px;
     float: right;
@@ -54,6 +60,7 @@ p {
     font-weight: bold;
     height: 250px;
 }
+
 ol {
     margin: auto 0px;
 }
@@ -64,4 +71,47 @@ ol {
     border-radius: 10px;
     margin-top: 10px;
     width: 100%;
+}
+
+.anim__container {
+    position: relative;
+    width: 70%;
+}
+
+.preanim__image {
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffffde;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .3s ease;
+}
+
+.anim__container:hover .overlay {
+    width: 100%;
+}
+
+.afteranim__text {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: 3px;
+    margin-right: 20px;
+    text-align: justify;
+    transform: translate(-50%, -50%);
 }
