@@ -14,7 +14,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #ffffffde;
+    background-color: #ffffffc5;
     border-radius: 10px;
     overflow: hidden;
     width: 0;
@@ -29,7 +29,7 @@
 .afteranim__text {
     color: black;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     overflow: hidden;
     position: relative;

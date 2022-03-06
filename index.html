@@ -5,7 +5,12 @@
     <meta charset="utf-8">
     <title>Достопримечательности Костромы</title>
 
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/info.css">
+    <link rel="stylesheet" href="styles/animatoin_box.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/list_map_img.css">
+    <link rel="stylesheet" href="styles/text.css">
+    <link rel="stylesheet" href="styles/links.css">
 </head>
 
 <body>
@@ -28,14 +33,19 @@
             <a href="/images/wide_river.jpg" target="_blank">
                 <img src="/images/wide_river.jpg" alt="Вид на волгу" height="240" class="view right" style="margin-top: 4px;">
             </a>
-            <div style="vertical-align: middle;">
+            <div>
                 <h2>Достопримечательности</h2>
                 <ol>
-                    <A href="#ipat">
-                        <li>Ипатьевский монастырь</li>
-                    </A>
-                    <li>Троицкий сабор</li>
-                    <li>Палаты бояр Романовых</li>
+
+                    <li>
+                        <A href="#ipat">Ипатьевский монастырь</A>
+                    </li>
+                    <li>
+                        <A href="#troits">Троицкий сабор</A>
+                    </li>
+                    <li>
+                        <A href="#palrom">Палаты бояр Романовых</A>
+                    </li>
                     <li>Музей деревянного зодчества "Костромская слобода"</li>
                     <li>Церковь Воскресения на Дебре</li>
                     <li>Богоявленско-Анастасиин монастырь</li>
@@ -49,19 +59,19 @@
         <h1 style="text-align: center;">Карта достопримечательностей</h1>
         <img src="/images/map.png" alt="Карта достопримечательностей" class="map" usemap="#kostroma">
         <map name="kostroma">
-            <area shape="circle" coords="251, 434, 20" href="" alt="Ипатьевский монастырь">
-            <area shape="circle" coords="235, 489, 20" href="" alt="Музей деревянного зодчества Костромская слобода">
-            <area shape="circle" coords="1049, 370, 20" href="" alt="Церковь Воскресения на Дебре">
-            <area shape="circle" coords="592, 268, 20" href="" alt="Богоявленско-Анастасиин монастырь">
-            <area shape="circle" coords="781, 409, 20" href="" alt="Беседка Островского">
-            <area shape="circle" coords="668, 366, 20" href="" alt="Памятник Ивану Сусанину">
-            <area shape="circle" coords="655, 326, 20" href="" alt="Гауптвахта и пожарная каланча">
+            <area shape="circle" coords="251, 434, 20" alt="Ипатьевский монастырь" target="_blank" href="https://yandex.ru/maps/org/svyato_troitskiy_ipatyevskiy_muzhskoy_monastyr/1029487485/?ll=40.893856%2C57.777075&utm_source=main_stripe_big&z=18.23">
+            <area shape="circle" coords="235, 489, 20" alt="Музей деревянного зодчества Костромская слобода" target="_blank" href="https://yandex.ru/maps/org/ogbuk_kostromskoy_arkhitekturno_etnograficheskiy_i_landshaftny_muzey_zapovednik_kostromskaya_sloboda/1088203421/?ll=40.889541%2C57.775411&utm_source=main_stripe_big&z=18.23">
+            <area shape="circle" coords="1049, 370, 20" alt="Церковь Воскресения на Дебре" target="_blank" href="https://yandex.ru/maps/org/tserkov_voskreseniya_khristova_na_debre/1184255096/?ll=40.948444%2C57.755700&utm_source=main_stripe_big&z=18.23">
+            <area shape="circle" coords="592, 268, 20" alt="Богоявленско-Анастасиин монастырь" target="_blank" href="https://yandex.ru/maps/org/bogoyavlensko_anastasiin_monastyr/1122046279/?ll=40.925230%2C57.772527&utm_source=main_stripe_big&z=18.23">
+            <area shape="circle" coords="781, 409, 20" alt="Беседка Островского" target="_blank" href="https://yandex.ru/maps/org/besedka_ostrovskogo/58595376326/?ll=40.928762%2C57.761763&utm_source=main_stripe_big&z=18.23">
+            <area shape="circle" coords="668, 366, 20" alt="Памятник Ивану Сусанину" target="_blank" href="https://yandex.ru/maps/org/ivan_susanin/219330358759/?ll=40.924813%2C57.766935&utm_source=main_stripe_big&z=18.23">
+            <area shape="circle" coords="655, 326, 20" alt="Гауптвахта и пожарная каланча" target="_blank" href="https://yandex.ru/maps/org/pozharnaya_kalancha/87797782128/?ll=40.925734%2C57.768679&utm_source=main_stripe_big&z=18.23">
         </map>
 
-        <h2 id="ipat">Ипатьевский монастырь</h2>
+        <h2 id="ipat" class="bookmark">Ипатьевский монастырь</h2>
         <div>
             <div class="info__container">
-                <table>
+                <table id="ipat_hours">
                     <caption>Часы работы монастыря</caption>
                     <tr>
                         <th>Дата</th>
@@ -101,6 +111,43 @@
                         принял христианскую веру и построил на этом месте храм и основал обитель. <br><br> В период Смуты в Ипатьевском монастыре скрывался от польско-литовских интервентов Михаил Федорович Романов. В 1613 году московские посланники приехали
                         уговаривать Михаила стать царем «всея Руси». Михаил принял предложение, и в Троицком соборе храма был отслужен первый благодарственный молебен за спасение России от смуты и за благословение нового царствующего дома. После этого
                         события монастырь стал священной обителью для династии Романовых. <br><br> Сейчас в стенах монастыря находится Церковный историко-археологический музей-заповедник «Ипатьевский монастырь».
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 id="troits" class="bookmark">Троицкий сабор</h2>
+        <div>
+            <div class="info__container">
+                <h2>Находится на территории Ипатьевского монастыря. <br><br>Адрес монастыря: <br>ул. Просвещения, 1. <br><br>
+                    <A href="#ipat_hours">Часы работы</A> соответствуют.</h2>
+            </div>
+            <div class="anim__container">
+                <img src="images/troitskiy_sabor.jpg" alt="Троицкий сабор" class="preanim__image">
+                <div class="overlay">
+                    <div class="afteranim__text">
+                        Троицкий собор - это визитная карточка Ипатьевского монастыря. Главная святыня Троицкого собора - Тихвинская икона, точная копия знаменитой иконы Тихвинской Богоматери. <br><br>Еще одна достопримечательность собора - иконостас
+                        в стиле барокко (середина 18 века). Огромную ценность также представляют фрески работы второй половины XVII века, известные своим уникальным исполнением и разнообразием сюжетов. Очень красиво парадное крыльцо с многообразием архитектурных
+                        украшений. <br><br>Композиция сооружения типична для соборных зданий середины XVII века. Кубический объем храма, увен­чанный пятиглавием на высоких барабанах, с трех сторон окружен крытой галереей, с высоким крыльцом с северной
+                        стороны. Все здание поднято на подклет. <br><br>В подклете расположены «гробовые палаты», являющиеся усыпальницей для рода Годуновых, многие из которых вложили много сил и средств в развитие монастыря.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 id="palrom" class="bookmark">Палаты бояр Романовых</h2>
+        <div>
+            <div class="info__container">
+                <h2>Находятся на территории Ипатьевского монастыря. <br><br>Адрес монастыря: <br>ул. Просвещения, 1. <br><br>
+                    <A href="#ipat_hours">Часы работы</A> соответствуют.</h2>
+            </div>
+            <div class="anim__container">
+                <img src="images/palati_romanovih.jpg" alt="Палаты бояр Романовых" class="preanim__image">
+                <div class="overlay">
+                    <div class="afteranim__text">
+                        Палаты бояр Романовых примыкают к Братскому корпусу. Это здание с поистине "царским" крыльцом, резными окнами и великолепными изразцовыми печами внутри. <br><br> Здание построено в конце 16 века, на средства бояр Годуновых. В этом
+                        здании, в 1613 году, проживал молодой боярин Михаил Романов со своей матерью, инокиней Марфой. Отсюда, в марте 1613 года, он был призван на московский престол. Отсюда начинается царствование рода Романовых на престоле. Поэтому
+                        и было дано название палатам: Царские чертоги. Левую сторону палат, занимал Михаил; правую – его мать. <br><br>Сейчас в помещении устроен музей рода Романовых.
                     </div>
                 </div>
             </div>

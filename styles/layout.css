@@ -11,3 +11,7 @@ body {
     width: 1400px;
     margin: 0px auto;
 }
+
+html {
+    scroll-behavior: smooth;
+}
