@@ -1,0 +1,13 @@
+body {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-width: 1400;
+    background-color: aliceblue;
+}
+
+.global__container {
+    width: 1400px;
+    margin: 0px auto;
+}
