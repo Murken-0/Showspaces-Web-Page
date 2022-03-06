@@ -15,19 +15,3 @@ body {
 html {
     scroll-behavior: smooth;
 }
-
-.row {
-    display: table;
-    width: 100%;
-}
-
-.img__col {
-    display: table-cell;
-    width: 70%;
-}
-
-.info__col {
-    display: table-cell;
-    vertical-align: middle;
-    padding-left: 20px;
-}
