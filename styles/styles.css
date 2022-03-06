@@ -115,3 +115,29 @@ ol {
     text-align: justify;
     transform: translate(-50%, -50%);
 }
+
+.info__container {
+    width: 27%;
+    float: right;
+}
+
+table {
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+caption {
+    font-size: x-large;
+    margin-bottom: 5px;
+}
+
+td,
+th {
+    padding: 10px;
+    border: 1px black;
+    border-style: outset;
+    border-radius: 5px;
+    text-align: center;
+}
