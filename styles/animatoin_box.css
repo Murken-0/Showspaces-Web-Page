@@ -1,6 +1,9 @@
 .anim__container {
     position: relative;
-    width: 70%;
+    width: 100%;
+    border: 1px black;
+    border-style: outset;
+    border-radius: 12px;
 }
 
 .preanim__image {
