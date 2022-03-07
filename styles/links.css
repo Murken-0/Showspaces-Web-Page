@@ -1,16 +1,20 @@
-A {
+A,
+a {
     text-decoration: none;
 }
 
-A:link {
+A:link,
+a:link {
     color: black;
 }
 
-A:visited {
+A:visited,
+a:visited {
     color: rgba(71, 71, 71, 0.9);
 }
 
-A:hover {
+A:hover,
+a:hover {
     color: black;
     text-decoration: underline;
 }
