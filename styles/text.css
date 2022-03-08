@@ -21,6 +21,7 @@ h2.right {
 
 h2.bookmark {
     padding-top: 30px;
+    margin-top: 0;
 }
 
 p {
@@ -31,8 +32,8 @@ p {
     line-height: 1.5;
 }
 
-p.right {
-    text-align: right;
+p.download {
+    margin: 0;
 }
 
 p.last {
