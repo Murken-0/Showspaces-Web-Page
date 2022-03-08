@@ -60,25 +60,3 @@
     margin-left: 3px;
     margin-right: 20px;
 }
-
-.row {
-    display: table;
-    width: 100%;
-}
-
-.img_col {
-    display: table-cell;
-    width: 70%;
-}
-
-.info_col_right {
-    display: table-cell;
-    vertical-align: middle;
-    padding-left: 20px;
-}
-
-.info_col_left {
-    display: table-cell;
-    vertical-align: middle;
-    padding-right: 20px;
-}

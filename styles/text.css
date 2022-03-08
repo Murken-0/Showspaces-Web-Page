@@ -3,7 +3,9 @@ h1 {
     font-size: xx-large;
     font-weight: bolder;
     text-align: center;
-    margin-bottom: 20pt;
+    padding-top: 30px;
+    text-align: center;
+    margin: 0;
 }
 
 h2 {
@@ -23,8 +25,19 @@ h2.bookmark {
 
 p {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 16;
+    font-size: 16px;
     font-weight: bold;
     text-align: justify;
     line-height: 1.5;
+}
+
+p.right {
+    text-align: right;
+}
+
+p.last {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 60px;
+    opacity: 0.85;
 }

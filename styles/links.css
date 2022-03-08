@@ -18,3 +18,30 @@ a:hover {
     color: black;
     text-decoration: underline;
 }
+
+.topbutton {
+    z-index: 1;
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    background: #f7f7f7;
+    text-align: center;
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    cursor: pointer;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    opacity: 1;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.topbutton:hover {
+    text-decoration: none;
+}
+
+.topbutton:visited {
+    color: black;
+}
